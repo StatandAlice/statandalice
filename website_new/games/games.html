@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLR7v9skoaNPmNhdH6dGxjt6SDKwNAoZzmRrh7vX=s900-c-k-c0x00ffffff-no-rj"></head>
+
+</head>
+<body>
+    <body style="background-color:#000000;"> 
+        
+        
+        
+        <button id="back" class="bubbly-button">Back</button>
+    
+    
+    </div>  
+
+    <script type="text/javascript">
+        document.getElementById("back").onclick = function () {
+            location.href = "https://statandalice.github.io/statandalice/website_new/homepage/homepage.html";
+        };
+    
+    </script>
+     
+        <h1><font face="Arial" size="20px" color="#FFFFFF">Games</font></h1>
+        <iframe src="https://itch.io/embed/1713327?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/clash-of-tanks">clash of tanks by StatandAlice/HELIDoge</a></iframe>
+        <iframe src="https://itch.io/embed/1607321?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/robot-shooter">Robot shooter by StatandAlice/HELIDoge</a></iframe>
+        <iframe src="https://itch.io/embed/1658976?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/ballhit">BALLHIT by StatandAlice/HELIDoge</a></iframe>
+        <iframe src="https://itch.io/embed/1657539?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/astronaut-runner">Astronaut Runner by StatandAlice/HELIDoge</a></iframe>
+        <iframe src="https://itch.io/embed/1582405?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/desertracing">desert racing by StatandAlice/HELIDoge</a></iframe>
+     <h1><font face="Arial" size="20px" color="#FFFFFF">Not What Your Looking For Try Other Games Page</font></h1>
+     
+       
+     <button id="other_games" class="bubbly-button">Other Games</button>
+    
+    
+     </div>  
+
+     <script type="text/javascript">
+        document.getElementById("other_games").onclick = function () {
+            location.href = "https://statandalice.github.io/statandalice/website_new/homepage/homepage.html";
+        };
+    
+     </script>
+    
+ <div class="wrapper">
+        <img src="#" alt="">
+        <div class="content">
+          <header>Cookies Consent</header>
+          <p>This website use cookies to ensure you get the best experience on our website.</p>
+          <div class="buttons">
+            <button class="item">I understand</button>
+            
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        const cookieBox = document.querySelector(".wrapper"),
+        acceptBtn = cookieBox.querySelector("button");
+        acceptBtn.onclick = ()=>{
+          //setting cookie for 1 month, after one month it'll be expired automatically
+          document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+          if(document.cookie){ //if cookie is set
+            cookieBox.classList.add("hide"); //hide cookie box
+          }else{ //if cookie not set then alert an error
+            alert("an unexpected error occurred.");
+          }
+        }
+        let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+        //if cookie is set then hide the cookie box else show it
+        checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+      </script>
+
+
+</body>
+</html> 

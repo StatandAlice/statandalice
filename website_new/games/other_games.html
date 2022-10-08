@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Other Games</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLR7v9skoaNPmNhdH6dGxjt6SDKwNAoZzmRrh7vX=s900-c-k-c0x00ffffff-no-rj"></head>
+
+</head>
+<body>
+    <button id="back" class="bubbly-button">Back</button>
+    
+    
+</div>  
+
+<script type="text/javascript">
+    document.getElementById("back").onclick = function () {
+        location.href = "https://statandalice.github.io/statandalice/website_new/homepage/homepage.html";
+    };
+
+</script>
+    
+    <body style="background-color:#000000;">
+        <h1><font face="Arial" size="20px" color="#FFFFFF">Other Games (go to my roblox groups for more games)</font></h1>
+
+        <button id="Scrach_Games" class="bubbly-button">Scrach Games</button>
+    
+    
+    </div>  
+    
+    <script type="text/javascript">
+        document.getElementById("Scrach_Games").onclick = function () {
+            location.href = "https://scratch.mit.edu/users/StatandAlice/";
+        };
+    
+    </script>
+        
+        <button id="unity_play" class="bubbly-button">Unity Play</button>
+    
+    
+    </div>  
+    
+    <script type="text/javascript">
+        document.getElementById("unity_play").onclick = function () {
+            location.href = "https://play.unity.com/u/StatandAlice";
+        };
+    
+    </script>
+        
+        <button id="Roblox_Games" class="bubbly-button">Roblox Games</button>
+    
+    
+    </div>  
+    
+    <script type="text/javascript">
+        document.getElementById("Roblox_Games").onclick = function () {
+            location.href = "https://www.roblox.com/users/563837630/profile#!/creations";
+        };
+    
+    </script>
+        
+
+        <div class="wrapper">
+            <img src="#" alt="">
+            <div class="content">
+              <header>Cookies Consent</header>
+              <p>This website use cookies to ensure you get the best experience on our website.</p>
+              <div class="buttons">
+                <button class="item">I understand</button>
+                
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            const cookieBox = document.querySelector(".wrapper"),
+            acceptBtn = cookieBox.querySelector("button");
+            acceptBtn.onclick = ()=>{
+              //setting cookie for 1 month, after one month it'll be expired automatically
+              document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+              if(document.cookie){ //if cookie is set
+                cookieBox.classList.add("hide"); //hide cookie box
+              }else{ //if cookie not set then alert an error
+                alert("an unexpected error occurred.");
+              }
+            }
+            let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+            //if cookie is set then hide the cookie box else show it
+            checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+          </script>
+    
+
+        
+
+</body>
+</html> 
