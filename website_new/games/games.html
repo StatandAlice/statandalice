@@ -1,80 +1,167 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
 <html>
-<head>
-<title>Games</title>
-<link rel="stylesheet" href="STYLE.CSS">
-<link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLR7v9skoaNPmNhdH6dGxjt6SDKwNAoZzmRrh7vX=s900-c-k-c0x00ffffff-no-rj"></head>
+	<head>
+		<title>StatandAlice</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+		<link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLR7v9skoaNPmNhdH6dGxjt6SDKwNAoZzmRrh7vX=s900-c-k-c0x00ffffff-no-rj">
+	</head>
+	<body class="is-preload">
+		<header>
+			<a class="logo" href="https://statandalice.github.io/statandalice/website_new/homepage/homepage.html"><img src="https://raw.githubusercontent.com/StatandAlice/statandalice/main/website_new/homepage/fish_head_games_splash_screen_0.png" alt="logo"></a>
+			<nav>
+				<ul class="nav__links">
+					<li><a href="https://statandalice.github.io/statandalice/website_new/games/games.html">Games</a></li>
+					<li><a href="https://sites.google.com/view/unblockedgmames696969420/games">Unblocked games website</a></li>
+					<li><a href="https://linktr.ee/statandalice">Other Links</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		<div class="overlay">
+			<a class="close">&times;</a>
+			<div class="overlay__content">
+			  <a><a href="https://statandalice.github.io/statandalice/website_new/games/games.html">Games</a></a>
+			  <a><a href="https://sites.google.com/view/unblockedgmames696969420/games">Unblocked games website</a></a>
+			  <a><a href="https://linktr.ee/statandalice">Links</a></a>
+		
+			</div>
+		</div>
+		<script type="text/javascript" src="mobile.js"></script>
+		
 
-</head>
-<body>
-    
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1><strong>Games</strong></h1>
+					<ul class="actions special">
+						<li><a href="https://statandalice.github.io/statandalice/website_new/homepage/homepage.html" class="button scrolly">Back</a></li>
+					</ul>
+				</div>
+			</section>
 
-  <body style="background-color:#807b6a;"> 
-        
-        
-        <button id="back" class="bubbly-button">Back</button>
-    
-    
-    </div>  
-
-    <script type="text/javascript">
-        document.getElementById("back").onclick = function () {
-            location.href = "https://statandalice.github.io/statandalice/website_new/homepage/homepage.html";
-        };
-    
-    </script>
-     
-        <h1><font face="Arial" size="20px" color="#FFFFFF">Games</font></h1>
-        <iframe src="https://itch.io/embed/1713327?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/clash-of-tanks">clash of tanks by StatandAlice/HELIDoge</a></iframe>
-        <iframe src="https://itch.io/embed/1607321?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/robot-shooter">Robot shooter by StatandAlice/HELIDoge</a></iframe>
-        <iframe src="https://itch.io/embed/1658976?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/ballhit">BALLHIT by StatandAlice/HELIDoge</a></iframe>
-        <iframe src="https://itch.io/embed/1657539?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/astronaut-runner">Astronaut Runner by StatandAlice/HELIDoge</a></iframe>
-        <iframe src="https://itch.io/embed/1582405?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/desertracing">desert racing by StatandAlice/HELIDoge</a></iframe>
-        <iframe src="https://itch.io/embed/1775586?linkback=true&amp;dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/8-bit-jump">8-BIT JUMP by StatandAlice/HELIDoge</a></iframe>     
-    <h1><font face="Arial" size="20px" color="#FFFFFF">Not What Your Looking For Try Other Games Page</font></h1>
-     
-       
-     <button id="other_games" class="bubbly-button">Other Games</button>
-    
-    
-     </div>  
-
-     <script type="text/javascript">
-        document.getElementById("other_games").onclick = function () {
-            location.href = "https://statandalice.github.io/statandalice/website_new/games/other_games.html";
-        };
-    
-     </script>
-    
- <div class="wrapper">
-        <img src="#" alt="">
-        <div class="content">
-          <header>Cookies Consent</header>
-          <p>This website use cookies to ensure you get the best experience on our website.</p>
-          <div class="buttons">
-            <button class="item">I understand</button>
-            
-          </div>
-        </div>
-      </div>
-      
-      <script>
-        const cookieBox = document.querySelector(".wrapper"),
-        acceptBtn = cookieBox.querySelector("button");
-        acceptBtn.onclick = ()=>{
-          //setting cookie for 1 month, after one month it'll be expired automatically
-          document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
-          if(document.cookie){ //if cookie is set
-            cookieBox.classList.add("hide"); //hide cookie box
-          }else{ //if cookie not set then alert an error
-            alert("an unexpected error occurred.");
-          }
-        }
-        let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
-        //if cookie is set then hide the cookie box else show it
-        checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
-      </script>
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+                            <iframe src="https://itch.io/embed/1713327?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/clash-of-tanks">clash of tanks by StatandAlice/HELIDoge</a></iframe>
+                            <iframe src="https://itch.io/embed/1607321?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/robot-shooter">Robot shooter by StatandAlice/HELIDoge</a></iframe>
+                            <iframe src="https://itch.io/embed/1658976?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/ballhit">BALLHIT by StatandAlice/HELIDoge</a></iframe>
+                            <iframe src="https://itch.io/embed/1657539?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/astronaut-runner">Astronaut Runner by StatandAlice/HELIDoge</a></iframe>
+                            <iframe src="https://itch.io/embed/1582405?dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/desertracing">desert racing by StatandAlice/HELIDoge</a></iframe>
+                            <iframe src="https://itch.io/embed/1775586?linkback=true&amp;dark=true" width="552" height="167" frameborder="0"><a href="https://statandalice.itch.io/8-bit-jump">8-BIT JUMP by StatandAlice/HELIDoge</a></iframe>     
+						</div>
+					</div>
+				</div>
+			</section>
 
 
-</body>
-</html> 
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					 <h2>Other Games</h2>
+					</header>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
+							<h3>Unity Play</h3>
+							<p>Click the Unity play button to go to my unity play games</p>
+							<ul class="actions special">
+								<li><a href="https://play.unity.com/u/StatandAlice" class="button">Unity Play</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+
+							<h3>Roblox Games</h3>
+							<p>You can find most of my Roblox games on my profile but some are in my Inventory and some are in the groups I have made</p>
+							<ul class="actions special">
+								<li><a href="https://www.roblox.com/users/563837630/profile" class="button">Games</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<h3>Scratch Games</h3>
+							<p>Click the Scrarch games button for scratch games</p>
+							<ul class="actions special">
+								<li><a href="https://steamcommunity.com/id/statandalice/myworkshopfiles/" class="button">Scratch Games</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<h3>Unblocked Games Website</h3>
+							<p>Want to play games in class then click the Unblocked games button</p>
+							<ul class="actions special">
+								<li><a href="https://sites.google.com/view/unblockedgmames696969420/games" class="button">Unblocked Games</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<h3>Other Games (outdated)</h3>
+							<p>click this button for the other games page the other games page is outdated</p>
+							<ul class="actions special">
+								<li><a href="https://statandalice.github.io/statandalice/website_new/games/other_games.html" class="button">Other games</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/StatandAlice" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.instagram.com/statandalice/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/StatandAlice/statandalice" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>Email Fisheadgames@gmail.com | I used a Template design by HTML5 UP for my website</li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="jquery.min.js"></script>
+			<script src="jquery.scrolly.min.js"></script>
+			<script src="browser.min.js"></script>
+			<script src="breakpoints.min.js"></script>
+			<script src="util.js"></script>
+			<script src="main.js"></script>
+			<div class="wrapper">
+				<img src="#" alt="">
+				<div class="content">
+				  <header>Cookies Consent</header>
+				  <p>This website use cookies to ensure you get the best experience on our website. We use thrid party cookies for embeds</p>
+				  <div class="buttons">
+					<button class="item">OK</button>
+					
+				  </div>
+				</div>
+			  </div>
+			  
+			  <script>
+				const cookieBox = document.querySelector(".wrapper"),
+				acceptBtn = cookieBox.querySelector("button");
+				acceptBtn.onclick = ()=>{
+				  //setting cookie for 1 month, after one month it'll be expired automatically
+				  document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+				  if(document.cookie){ //if cookie is set
+					cookieBox.classList.add("hide"); //hide cookie box
+				  }else{ //if cookie not set then alert an error
+					alert("an unexpected error occurred.");
+				  }
+				}
+				let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+				//if cookie is set then hide the cookie box else show it
+				checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+			  </script>
+			  
+	
+
+					
+	     
+	</body>
+</html>
